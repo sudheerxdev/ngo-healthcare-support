@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  text-align: center;
+  color: #e0e0e0;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+/* Glass Card */
+.card {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+
+/* Inputs */
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4);
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(135deg, #00c9ff, #92fe9d);
+  color: #003049;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+/* Request Card */
+.request {
+  margin-top: 15px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+/* Urgency Badge */
+.badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.badge.Emergency {
+  background: #ff4d6d;
+  color: white;
+}
+
+.badge.Medium {
+  background: #ffbe0b;
+  color: black;
+}
+
+.badge.Low {
+  background: #06d6a0;
+  color: black;
+}
+
+/* Chatbox */
+.chatbox {
+  max-height: 200px;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Toast */
+.toast {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #06d6a0;
+  color: black;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
