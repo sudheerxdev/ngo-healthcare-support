@@ -1,16 +1,80 @@
-# React + Vite
+# 🩺 NGO Healthcare Support Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+The NGO Healthcare Support Portal is a concept-level web application designed to help NGOs efficiently manage patient support requests using simple automation.
 
-Currently, two official plugins are available:
+This system collects patient details, automatically categorizes case urgency, generates a summary, and provides a FAQ chatbot to reduce repetitive support queries.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
+🔗 https://ngo-healthcare-support.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 💻 GitHub Repository
+🔗 https://github.com/sudheerxdev/ngo-healthcare-support
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+### 📝 Patient Support Form
+- Collects patient name, phone number, and problem description.
+
+### 🤖 Automated Urgency Detection
+- Automatically classifies cases into:
+  - Emergency
+  - Medium
+  - Low
+- Based on keyword detection (e.g., accident, blood, fever, pain).
+
+### 📄 Auto-Generated Summary
+- Creates a structured summary of the patient’s issue.
+- Helps NGOs quickly understand and prioritize cases.
+
+### 📊 Dashboard View
+- Displays submitted requests.
+- Shows urgency badges with color indicators.
+
+### 💬 FAQ Chatbot
+- Rule-based chatbot to answer common queries:
+  - Services
+  - Volunteer registration
+  - Contact information
+  - Emergency guidance
+
+---
+
+## 🛠 Tech Stack
+- React (Vite)
+- JavaScript
+- CSS (Modern UI Design)
+- Hosted on Vercel
+
+---
+
+## 🧠 Automation Logic
+The system uses rule-based keyword detection to:
+- Identify urgency level.
+- Generate automated summaries.
+- Provide predefined chatbot responses.
+
+This reduces manual screening effort and improves response efficiency for NGOs.
+
+---
+
+## 🎯 NGO Use Case
+NGOs often receive multiple patient requests daily. This portal:
+- Structures incoming data.
+- Automatically flags emergency cases.
+- Reduces repetitive FAQ handling.
+- Improves operational efficiency.
+
+---
+
+## ⚙️ How to Run Locally
+
+```bash
+npm install
+npm run dev
